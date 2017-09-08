@@ -1,0 +1,167 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:		Fekra
+Version:		1
+Last change:	10/25/2015 [no Change]
+Primary use:	Fekra Multi Purpose
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1-1. agency page Styles
+2-1. creative page Styles
+3-1. croporate page Styles
+4-1. minimal page Styles
+5-1. personal page Styles
+6-1. photographer page Styles
+7-1. freelancer page Styles
+8-1. wedding page Styles
+9-1. shop page Styles
+10-1. restaurant page Styles
+11-1. architecture page Styles
+12-1. construction page Styles
+13-1. realestate page Styles
+14-1. travel page Styles
+15-1. yoga page Styles
+16-1. blog page Styles
+17-1. portfolio page Styles
+18-1. app landing page Styles
+19-1. one page Styles
+20-1. shop inner page Styles
+21-1. blog full width page Styles
+
+-------------------------------------------------------------------*/
+
+$mq-breakpoints: (
+    // Base device classes
+    mobile:      320px,
+    tablet:      640px,
+    desktop:    1024px,
+    widescreen: 1200px,
+    tvscreen:   1920px,
+
+    // Tweakpoints
+    mobileLandscape: 480px
+);
+
+// Show active breakpoint in top right corner of viewport
+// $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, widescreen, tvscreen);
+
+@import "bootstrap-custom";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "base/markup-mixins";
+
+@import "mq";
+@import 'config/config_skin';
+body{
+	font-family: $font__primary, $font__primary_backup;
+	font-weight: $font__primary_weight;
+	font-size: $font__primary_size;
+	line-height: $font__primary_line_height;
+	color: $font__primary_color;
+	background: $white;
+	@include breakpoint($screen-xs-max){
+		font-size: 14px;
+	}
+}
+.type2.wedo-section .icon{
+    border:1px solid $font__primary_color;
+    color:$font__primary_color;
+}
+.lancer-do a {
+    color: $font__primary_color;
+}
+.wpb_toggles_wrapper .vc_tta-panel-body{
+    color: $font__primary_color;
+}
+.meta li a {
+    color: $font__primary_color;
+}
+.lancer-about {
+    color: $font__primary_color;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: $font__primary_color !important
+}
+.nav-links  a {
+    color:$font__primary_color;
+}
+.caculator > .vc_column-inner{
+    color: $font__primary_color;
+}
+.woocommerce div.product .woocommerce-tabs .panel{
+   color: $font__primary_color;
+}
+.description-header .woocommerce-review-link{
+	color: $font__primary_color;
+}
+.variations a.reset_variations{
+	color: $font__primary_color; 
+}
+.const-services .box-block {
+    color:$font__primary_color;
+}
+.const-services.style3 .slick-list { 
+  color: $font__primary_color; 
+}
+#footer {
+  .fekra_widget_subscribe{
+    label{
+	  color: $font__primary_color;
+	}
+  }
+}
+#header.style4{
+	background: $header_creative_bg_nav_color;
+}
+/*------------------------------------------------------------------
+1-1. agency page Styles
+-------------------------------------------------------------------*/
+@import "pages/agency";
+/*------------------------------------------------------------------
+2-1. creative page Styles
+-------------------------------------------------------------------*/
+@import "pages/creative";
+/*------------------------------------------------------------------
+3-1. croporate page Styles
+-------------------------------------------------------------------*/
+@import "pages/croporate";
+/*------------------------------------------------------------------
+4-1. minimal page Styles
+-------------------------------------------------------------------*/
+@import "pages/minimal";
+/*------------------------------------------------------------------
+5-1. personal page Styles
+-------------------------------------------------------------------*/
+@import "pages/personal";
+/*------------------------------------------------------------------
+6-1. photographer page Styles
+-------------------------------------------------------------------*/
+@import "pages/photographer";
+/*------------------------------------------------------------------
+7-1. freelancer page Styles
+-------------------------------------------------------------------*/
+@import "pages/freelancer";
+/*------------------------------------------------------------------
+8-1. wedding page Styles
+-------------------------------------------------------------------*/
+@import "pages/wedding";
+/*------------------------------------------------------------------
+9-1. shop page Styles
+-------------------------------------------------------------------*/
+@import "pages/shop";
+/*------------------------------------------------------------------
+10-1. restaurant page Styles
+-------------------------------------------------------------------*/
+@import "pages/restaurant";
+/*------------------------------------------------------------------
+11-1. architecture page Styles
+-------------------------------------------------------------------*/
+@import "pages/architecture";
+/*------------------------------------------------------------------
+12-1. construction page Styles
+-------------------------------------------------------------------*/
+@import "pages/construction";

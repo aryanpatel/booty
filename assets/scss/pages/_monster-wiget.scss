@@ -1,0 +1,47 @@
+.widget{
+	.jcf-select{
+		background: #ffffff none repeat scroll 0 0;
+	    border: 1px solid #dddddd;
+	    display: inline-block;
+	    height: 30px;
+	    margin: 10px 0 12px;
+	    min-width: 200px;
+	    vertical-align: middle;
+	}
+	&.widget_calendar #calendar_wrap table{
+		td, th {
+    	padding: 7px;
+		}	
+	}
+	.page_item_has_children ul li{
+		&:first-child{
+			padding-top: 7px;
+			a{
+				&:before{
+					top:13px;
+				}
+			}
+		}
+	} 
+	.search-form .submit{
+		top: 8px;
+		font-size: 19px;
+	}
+	&.widget_nav_menu{
+		ul.menu{
+			li.menu-item-has-children{
+				ul.sub-menu li{
+					&:first-child{
+						padding-top: 7px;
+						a{
+							&:before{
+								top:13px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

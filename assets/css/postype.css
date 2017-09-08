@@ -1,0 +1,72 @@
+.col-6{
+    display: inline-block;
+    width:100%;
+}
+.col-6 label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 98%;
+    background-color:#ccc;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    color: #23282d;
+}
+.col-6 input[type="text"],
+.col-6 textarea{
+    margin-bottom: 10px;
+    width:98%;
+}
+
+.wpb_illusion_textblock_slider > .vc_controls,
+.wpb_illution_process > .vc_controls,
+.wpb_illution_toggles > .vc_controls{
+    opacity: 1 !important;
+    visibility: visible;
+    position: relative;
+    height: 23px;
+    margin: 18px 0 2px 0;
+    border: 1px dotted #e6e6e6;
+    border-bottom-width: 0;
+}
+.wpb_illusion_textblock_slider > .vc_controls .vc_controls-cc,
+.wpb_illution_process > .vc_controls .vc_controls-cc,
+.wpb_illution_toggles > .vc_controls .vc_controls-cc{
+    background: #285a85;
+    border-color: #285a85;
+    top: 0 !important;
+    direction: ltr !important;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 0 !important;
+    border-radius: 3px;
+    left: 50%;
+}
+.wpb_illusion_textblock_slider > .wpb_element_wrapper,
+.wpb_illution_process > .wpb_element_wrapper,
+.wpb_illution_toggles > .wpb_element_wrapper{
+    margin-top: 22px;
+    padding-top: 0 !important;
+}
+.wpb_illusion_textblock_slider .vc_tta-container,
+.wpb_illution_process .vc_tta-container,
+.wpb_illution_toggles .vc_tta-container{
+    margin-top: 0
+}
+.wpb_illusion_textblock_slider .vc_tta.vc_general .vc_tta-panel,
+.wpb_illution_process .vc_tta.vc_general .vc_tta-panel,
+.wpb_illution_toggles .vc_tta.vc_general .vc_tta-panel{
+    margin-top: 0
+}
+.iris-picker{
+	display:none!Important;
+}
+.iris-picker.show{
+	display:block!important;
+}
+.ui-spinner-up.ui-spinner-button{
+	float:right!important; height:30px!important;
+}
+.ui-spinner-down.ui-spinner-button{
+	height:30px!important;
+}
