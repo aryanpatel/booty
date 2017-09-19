@@ -2,7 +2,8 @@
 /*
   Template Name: Full Width With slider
   Booty's Full Width Page to show the Pages Selected Full Width
-  Since v1.0
+ * @since v 1.0
+ * @package Booty
  */
 get_header();
 ?>

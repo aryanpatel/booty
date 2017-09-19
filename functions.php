@@ -7,11 +7,17 @@ define('BOOTY_URI', get_template_directory_uri());
 define('BOOTY_DIR', get_template_directory());
 define('BOOTY_LIB', get_template_directory() . '/inc');
 define('BOOTY_ADMIN', BOOTY_LIB . '/admin');
+define('BOOTY_FUNCTIONS', BOOTY_LIB . '/functions');
 define('BOOTY_ASSEST_DIR', BOOTY_URI . '/assets');
+define('BOOTY_PLUGINS', BOOTY_LIB . '/plugins');
+define('BOOTY_METABOXES', BOOTY_FUNCTIONS . '/metaboxes');
 if (!class_exists('Booty_Nav_Walker')) {
     include BOOTY_DIR . '/inc/booty_nav_walker.php';
 }
-
+if ( ! defined( 'BOOTY_DIR_URI') ) :
+    define( 'BOOTY_DIR_URI', get_template_directory_uri() );
+endif;
+require_once(BOOTY_PLUGINS . '/functions.php');
 require( BOOTY_LIB . '/theme-setup.php' );
 add_action('after_setup_theme', 'booty_setup');
 
@@ -32,6 +38,7 @@ if (!function_exists('booty_setup')) {
         add_theme_support('title-tag');
         add_theme_support('post-thumbnails');
         add_theme_support('woocommerce');
+        add_theme_support( 'customize-selective-refresh-widgets' );
     }
 
 }
