@@ -1,0 +1,130 @@
+.iris-picker.show{
+	display:block!important;
+}
+.col-lg-3{width:24%;}
+.col-lg-4{width:33%;}
+.col-lg-5{width:40.66666667%;}
+.col-lg-6{width:49%;}
+.col-lg-12{width:100%;}
+.m-bottom-10{margin-bottom:10px;}
+.booty_footer_layout{padding-top: 15px; border-top: 2px solid #aaa;}
+.wrapselect-option  label input[type="text"],.wrapselect-option  label input[type="url"]{width:100%;}
+.d-inline-block {display:inline-block; vertical-align: top;}
+.wrapselect-option{padding:15px 0;}
+.wrapselect-heading-type{padding:15px 0 15px 15px;}
+.wrapselect-option{padding:15px 0;}
+.booty_tab{
+	display:inline-block;
+}
+.booty_tab li{
+	display:inline-block;
+	padding:2px 5px;
+}
+.booty_tab li.active input[type="button"]{
+	background: #f5f5f5;
+    color: #555;
+    border-bottom-color: #f5f5f5;
+}
+.booty_footer_layout label,.booty_header_layout label,.booty_footer_style label,.booty_footer_parallax label{float:left;width:150px}
+.booty_footer_layout>div,.booty_footer_tab,.booty_header_layout>div,.booty_footer_style>div,.booty_footer_parallax>div{display:block}
+.booty_footer_tab li{display:inline-block}
+.booty_footer_tab li.active input[type="button"] {background: #f5f5f5;color: #555;border-bottom-color: #f5f5f5;}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+.list-color {
+    margin: 0 0 12px;
+    padding: 0 0 14px;
+    border-bottom: 1px solid #eee;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.list-color li {
+    padding: 0 1px 4px 5px;
+}
+.list-color li.selected a{
+	color: #124964;
+    -webkit-box-shadow: 0 0 0 1px #5b9dd9,0 0 2px 1px rgba(30,140,190,.8);
+    box-shadow: 0 0 0 1px #5b9dd9,0 0 2px 1px rgba(30,140,190,.8);
+}
+a {
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.list-color a {
+    display: block;
+    border-radius: 3px;
+    width: 33px;
+    height: 33px;
+}
+.awesome a {
+    background: #ff1a56;
+}
+.bleu-de-france a {
+  background: #3498db;
+}
+.bleu-de-france2 a {
+  background: #4285f6;
+}
+.chateau-green a {
+  background: #27ae60;
+}
+.dark-pastel-red a {
+  background: #c0392b;
+}
+.di-serria a {
+  background: #cea35f;
+}
+.light-green a {
+  background: #2ecc71;
+}
+.light-taupe a {
+  background: #ad8368;
+}
+.niagara a {
+  background: #16a085;
+}
+.orange a {
+  background: #f96015;
+}
+.pastel-orange a {
+  background: #ffb546;
+}
+.pastel-red a {
+  background: #ff6d6d;
+}
+.pastel-red2 a {
+  background: #ff6d6d;
+}
+.rich-electric-blue a {
+  background: #0091ea;
+}
+.rodeo-dust a {
+  background: #c7b29b;
+}
+.sun a {
+  background: #feb010;
+}
+.sunglo a {
+  background: #d86d65;
+}
+.twine a {
+  background: #c59d5f;
+}
+.ucla-gold a {
+  background: #ffb600;
+}
+.yellow a {
+  background: #f39c12;
+}
+.zest a {
+  background: #e67e22;
+}
+.my-sin a {
+  background: #feb41c;
+}
