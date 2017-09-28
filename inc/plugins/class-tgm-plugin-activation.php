@@ -2137,7 +2137,7 @@ if ( ! function_exists( 'tgmpa' ) ) {
 			if ( isset( $config['parent_url_slug'] ) ) {
 				_deprecated_argument( __FUNCTION__, '2.4.0', 'The `parent_url_slug` config parameter was removed in TGMPA 2.4.0. In TGMPA 2.5.0 an alternative was (re-)introduced. Please adjust your configuration. For more information visit the website: http://tgmpluginactivation.com/configuration/#h-configuration-options.' );
 			}
-
+                        
 			call_user_func( array( $instance, 'config' ), $config );
 		}
 	}

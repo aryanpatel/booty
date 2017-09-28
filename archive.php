@@ -66,16 +66,15 @@ $nav = $booty_settings['archive_post_nav'];
                                     }
                                 }
                                 ?>
-                                <archive <?php post_class($item_class); ?> ">
-                                    <?php echo booty_before_content_post(get_the_ID(), get_post_format(), $items_type); ?>
+                                <archive class="<?php echo $item_class; ?>">
+                                <?php echo booty_before_content_post(get_the_ID(), get_post_format(), $items_type); ?>
                                     <div class="blog-txt">
                                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                                        <?php echo get_meta_blog(get_the_ID(), $hidden_author_blog, $hidden_cat_blog, $hidden_like_blog, $hidden_comment_blog); ?>
+                                <?php echo get_meta_blog(get_the_ID(), $hidden_author_blog, $hidden_cat_blog, $hidden_like_blog, $hidden_comment_blog); ?>
                                         <p><?php echo wp_trim_words(get_the_content(), 20, ''); ?></p>
-                                        <?php wp_link_pages(); ?>
-                                        <a href="<?php the_permalink(); ?>" class="more"><?php echo '[ ' . __('CONTINUE READING', 'booty') . ' ]' ?></a>
+                                        <a href="<?php the_permalink(); ?>" class="more"><?php echo '[ ' . __('CONTINUE READING', BOOTY_TXT_DOMAIN) . ' ]' ?></a>
                                         <div class="box-holder">
-                                            <?php echo get_date_post(get_the_ID()); ?>
+                                <?php echo get_date_post(get_the_ID()); ?>
                                         </div>
                                     </div>
                                 </archive>
@@ -93,11 +92,11 @@ $nav = $booty_settings['archive_post_nav'];
                             }
                         }
                         ?>
-                        <?php
-                    else :
-                        get_template_part('content', 'none');
-                    endif;
-                    ?>
+    <?php
+else :
+    get_template_part('content', 'none');
+endif;
+?>
                 </div>
             </div>
         </div><!-- #content -->

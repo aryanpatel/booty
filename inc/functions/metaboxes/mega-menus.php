@@ -2,7 +2,7 @@
 /**
  * Restricted Access
  */
-if ( ! defined( 'ABSPATH') || !defined( 'booty_metaboxes') ) :
+if ( ! defined( 'ABSPATH') || !defined( 'BOOTY_METABOXES') ) :
     die( 'Cheatin\' huh?' );
 endif;
 
